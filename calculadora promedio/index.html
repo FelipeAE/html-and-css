@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Calculadora de promedios con porcentajes</title>
+	
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="calculator">
+		<h2>Calculadora de promedios con porcentajes</h2>
+		<form>
+			<label for="calif1">Nota 1:</label>
+			<input type="number" id="calif1" name="calif1" min="0" max="100" required>
+			<label for="porc1">Porcentaje:</label>
+			<input type="number" id="porc1" name="porc1" min="0" max="100" required>
+
+			<label for="calif2">Nota 2:</label>
+			<input type="number" id="calif2" name="calif2" min="0" max="100" required>
+			<label for="porc2">Porcentaje:</label>
+			<input type="number" id="porc2" name="porc2" min="0" max="100" required>
+
+			<label for="calif3">Nota 3:</label>
+			<input type="number" id="calif3" name="calif3" min="0" max="100" required>
+			<label for="porc3">Porcentaje:</label>
+			<input type="number" id="porc3" name="porc3" min="0" max="100" required>
+
+			<label for="calif4">Nota 4:</label>
+			<input type="number" id="calif4" name="calif4" min="0" max="100" required>
+			<label for="porc4">Porcentaje:</label>
+			<input type="number" id="porc4" name="porc4" min="0" max="100" required>
+
+			<button type="button" onclick="calcularPromedio()">Calcular promedio</button>
+			<p>El promedio ponderado es: <span id="resultado"></span></p>
+		</form>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
