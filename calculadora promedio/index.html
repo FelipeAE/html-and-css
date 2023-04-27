@@ -11,8 +11,20 @@
 </head>
 <body>
 	<div class="calculator">
-		<h2>Calculadora de promedios con porcentajes</h2>
-		<form>
+		<h2>Calculadora de Promedios</h2>
+		<form class="centrar">
+			<br>
+    			<table height="45" align="center">
+					<tr class="ejemplo ">
+					<td colspan="4" >Ejemplo:  Nota 1  </td>
+					<td>
+					<input type="text" value="65" disabled class="textNota form-control" style="min-width: 50px; width: 20%; float: left; ">
+					</td><td>Porcentaje
+
+					<input type="text" value="25" disabled class="textNota form-control" style="min-width: 50px; width: 20%;"></td>
+					</tr>	
+    			</table>
+    		<br>
 			<label for="calif1">Nota 1:</label>
 			<input type="number" id="calif1" name="calif1" min="0" max="100" required>
 			<label for="porc1">Porcentaje:</label>
